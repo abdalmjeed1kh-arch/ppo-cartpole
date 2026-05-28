@@ -13,4 +13,4 @@ PPO implementation from scratch on CartPole-v1.
 - Episode boundary handling for correct advantage computation
 
 ## Key lesson
-The hardest bug was episode boundaries — without done flags in GAE, advantages leaked across resets and the agent couldn't learn.
+The hardest bug was episode boundaries,  without done flags in GAE, advantages leaked across resets and the agent couldn't learn.
